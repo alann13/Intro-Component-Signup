@@ -1,0 +1,14 @@
+{
+  "name": "intro-component-signup",
+  "description": "A frontend component.",
+  "version": "0.1.0",
+  "author": "inThaHouse",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.6.4"
+  }
+}
