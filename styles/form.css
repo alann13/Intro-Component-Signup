@@ -19,6 +19,24 @@ input {
   width: 100%;
 }
 
+.error-field {
+  color: var(--red);
+  display: none;
+  font-size: 0.7rem;
+  font-weight: medium;
+  font-style: italic;
+  margin-top: 5px;
+  text-align: right;
+}
+
+.input-correction {
+  border: 2px solid var(--red);
+}
+
+.input-correction + .error-field {
+  display: block;
+}
+
 input:hover,
 input:focus {
   border: 2px solid var(--black);
