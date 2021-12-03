@@ -35,11 +35,13 @@
 
         <!-- Signup Form -->
         <section class="form-container">
-          <form>
+          <form id="signup-form">
             <fieldset>
               <label for="first-name"></label>
               <input
                 id="first-name"
+                minlength="3"
+                maxlength="25"
                 placeholder="First Name"
                 required
                 type="text"
@@ -50,6 +52,8 @@
               <label for="last-name"></label>
               <input
                 id="last-name"
+                minlength="3"
+                maxlength="25"
                 placeholder="Last Name"
                 required
                 type="text"
@@ -75,9 +79,8 @@
                 type="password"
               />
             </fieldset>
+            <button id="claim-btn" type="submit">Claim your free trial</button>
           </form>
-
-          <button>Claim your free trial</button>
 
           <div class="term-text">
             By clicking the button, you are agreeing to our
