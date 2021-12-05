@@ -2,15 +2,15 @@ import {
   EMPTY_FIELD_ERROR_MSG,
   INPUT_CORRECTION,
   INVALID_EMAIL_ERROR_MSG,
-} from './utils/constants'
-import { isEmailValid, isFormFieldEmpty } from './utils/general'
+} from '@utils/constants'
+import { isEmailValid, isFormFieldEmpty } from '@utils/general'
 import {
   emailInput,
   firstNameInput,
   form,
   lastNameInput,
   passwordInput,
-} from './utils/ui-selectors'
+} from '@utils/ui-selectors'
 
 const handleEmptyFormField = (inputField, errorControls) => {
   inputField.classList.add(INPUT_CORRECTION)

@@ -7,4 +7,9 @@ export default defineConfig({
       plugins: [autoprefixer()],
     },
   },
+  resolve: {
+    alias: {
+      '@utils': './utils',
+    },
+  },
 })
