@@ -1,0 +1,5 @@
+export const form = document.getElementById('signup-form')
+export const firstNameInput = document.getElementById('first-name')
+export const lastNameInput = document.getElementById('last-name')
+export const emailInput = document.getElementById('email-address')
+export const passwordInput = document.getElementById('password')
