@@ -7,4 +7,5 @@
 
 .term-text > span {
   color: var(--red);
+  font-weight: bold;
 }
