@@ -31,16 +31,15 @@ const validateForm = (event) => {
 
   const inputFields = [emailInput, firstNameInput, lastNameInput, passwordInput]
 
-  let error = {
+  const error = {
     count: 0,
     emptyFieldMsg: EMPTY_FIELD_ERROR_MSG,
     invalidEmailMsg: INVALID_EMAIL_ERROR_MSG,
   }
-
   inputFields.forEach((inputField) => {
-    if (isFormFieldEmpty(inputField)) {
+    if (isFormFieldEmpty(inputField.value)) {
       handleEmptyFormField(inputField, error)
-    } else if (isEmailValid(inputField)) {
+    } else if (!isEmailValid(inputField.id, inputField.value)) {
       handleInvalidEmail(inputField, error)
     } else {
       inputField.classList.remove(INPUT_CORRECTION)

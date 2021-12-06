@@ -1,10 +1,10 @@
-export const isEmailValid = ({ id, value }) => {
+export const isEmailValid = (inputFieldId, email) => {
   return (
-    id === 'email-address' &&
-    !/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value)
+    inputFieldId === 'email-address' &&
+    /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
   )
 }
 
-export const isFormFieldEmpty = ({ value }) => {
-  return !value
+export const isFormFieldEmpty = (inputFieldValue) => {
+  return !inputFieldValue
 }

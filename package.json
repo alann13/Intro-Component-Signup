@@ -1,16 +1,25 @@
 {
   "name": "intro-component-signup",
   "description": "A frontend component.",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "author": "inThaHouse",
+  "type": "module",
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm t"
+    }
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "cypress": "^9.1.1",
+    "husky": "^7.0.4",
+    "jest": "^27.4.3",
     "vite": "^2.6.4"
   }
 }
