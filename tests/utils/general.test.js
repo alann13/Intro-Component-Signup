@@ -9,5 +9,5 @@ test('email validations', () => {
 
 test('form fields', () => {
   expect(isFormFieldEmpty('')).toBe(true)
-  expect(isFormFieldEmpty('lolol')).toBe(false)
+  expect(isFormFieldEmpty('lolol')).toBe(true)
 })
