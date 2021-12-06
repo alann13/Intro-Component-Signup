@@ -10,11 +10,6 @@
     "serve": "vite preview",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run test"
-    }
-  },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "cypress": "^9.1.1",
