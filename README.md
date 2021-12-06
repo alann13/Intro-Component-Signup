@@ -1,6 +1,7 @@
 # Intro Component Sign Up
 
-Small component using Vitejs as a build tool.
+Small form validation component using Vitejs as a build tool.  
+Goal is to add unit and e2e test into the project.
 
 <details>
 
