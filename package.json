@@ -9,7 +9,8 @@
     "dev": "vite",
     "prepare": "husky install",
     "serve": "vite preview",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "cy:run": "cypress run"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
