@@ -3,6 +3,13 @@
 Small form validation component using Vitejs as a build tool.  
 Goal is to add unit and e2e test into the project.
 
+## Usage
+
+- Install dependencies via command `npm i`.
+- After running, `npm run dev`, site can be visible through `http://localhost:3000`.
+- `npm test` to run unit tests.
+- Before running e2e tests, local dev server should be up.
+
 <details>
 
 <summary>
