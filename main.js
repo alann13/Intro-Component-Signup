@@ -38,7 +38,6 @@ const validateForm = (event) => {
   }
 
   inputFields.forEach((inputField) => {
-    console.log(inputField.id)
     if (isFormFieldEmpty(inputField.value)) {
       handleEmptyFormField(inputField, error)
     } else if (
